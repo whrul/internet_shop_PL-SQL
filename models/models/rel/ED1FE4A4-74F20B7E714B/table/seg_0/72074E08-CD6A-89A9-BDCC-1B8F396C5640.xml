@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72074E08-CD6A-89A9-BDCC-1B8F396C5640" name="Order_produkt">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<ordsAlias>relation_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_ID_product" id="74896E40-FE02-3717-2821-BAB7ADAA0D53">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A583DE54-E028-202C-AE11-40EB85263A00" referredColumn="97F20A44-455C-7E92-830C-012E9DE43695"/>
+</associations>
+</Column>
+<Column name="Order_ID_order" id="6A1D5E51-C97D-5017-3184-F6BBA7DE1155">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D443A33B-65A8-3A09-ABF4-A56D2FDBF5F6" referredColumn="6E09256F-E7C9-5E60-9C0F-C2B25A4930D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="519513D9-3A99-6597-AAC4-1990E055BA17" name="Order_produkt_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74896E40-FE02-3717-2821-BAB7ADAA0D53"/>
+<colUsage columnID="6A1D5E51-C97D-5017-3184-F6BBA7DE1155"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4AAC429-6B67-64A2-02DC-88FC0CF56EEC" name="Order_product_Product_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>711A13E9-B1E0-CC54-04C8-9418CE473041</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74896E40-FE02-3717-2821-BAB7ADAA0D53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF4A659B-96DD-E46A-5E34-FECC913225F6" name="Order_produkt_Order_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>711A13E9-B1E0-CC54-04C8-9418CE473041</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A1D5E51-C97D-5017-3184-F6BBA7DE1155"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

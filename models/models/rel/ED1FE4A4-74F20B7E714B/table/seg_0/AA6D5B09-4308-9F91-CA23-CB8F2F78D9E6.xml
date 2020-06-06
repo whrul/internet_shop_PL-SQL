@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA6D5B09-4308-9F91-CA23-CB8F2F78D9E6" name="Address">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>FD03F6A3-05B5-075E-CCE8-2E60568AFB98</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_address" id="56A7E7A3-FB8F-1967-80A0-E8AE319869F4">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>B87DAFE0-691E-C3D4-DC02-83206614ED02</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="BFC71303-0EE9-3DAF-F989-D7C36E8FC09C">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>8F80F4B7-76C0-CD03-B967-1D0F836CFDAE</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="house_num" id="F65F8687-8AC2-D1D9-F601-6414EF0EE93A">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>F19ECF6B-80CC-F87D-7F9E-1F36FB187D5B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ap_num" id="44C0C3E1-DED3-1222-DBC3-2E558696C4A5">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>5F209C48-3C02-3C52-9DE1-E3C35701AB10</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip_code" id="309B9FB8-F20B-DDDE-6F63-F79E6A661B83">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>943E13FA-282C-9B19-86B1-441DECA9895A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Country_ID_country" id="AE7E633B-684C-5512-7634-EB54F77C50C1">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>60EE97E2-ABBE-53C7-C8E2-E1C91E7481AE</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8875BD8-F0C2-429B-C7A9-450FCEFE7BA9" referredColumn="EE5728DC-981B-49C5-C790-6E8170821A93"/>
+</associations>
+</Column>
+<Column name="City_ID_city" id="5C957819-CA64-B902-480A-C5B8E6ADD055">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>5CE8105F-0C20-0BA1-5F0E-93211875D6CA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20AA6250-8F95-605F-9B19-9D299019AA04" referredColumn="D8300713-2CB8-90DA-A1BD-42609E92860F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCAE61A1-CF5C-9E8E-BA52-EA29CD9A14EC" name="Address_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>1926983F-844F-EFAA-7946-BB4780AED125</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56A7E7A3-FB8F-1967-80A0-E8AE319869F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="921576AD-2657-63A7-DDDC-C0D18218BD12" name="Address_Country_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>83424991-35D4-4ED7-FD86-A94DE5F702B8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE7E633B-684C-5512-7634-EB54F77C50C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6A34A6C-F469-EB41-6613-4D6E6A62249B" name="Address_City_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>818507BA-0DD0-3D33-D6C6-3B79F0BCAB8B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C957819-CA64-B902-480A-C5B8E6ADD055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

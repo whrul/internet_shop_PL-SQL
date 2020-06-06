@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3ED54526-E0DE-77F0-A59A-220655826051" name="Delivery">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>E8F4059D-EB55-E37D-03C7-236F38ABF830</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_delivery" id="201E8CD1-8D15-DE49-04C2-E0A8D1087C51">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>4759DFF1-0B1C-2EE0-6035-AA9CBAD40A97</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_ID_order" id="60434796-FB21-00DF-A856-5800285C733F">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>1E5B5117-5D02-2319-97C0-DF8D68C84042</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Delivery_status_ID_status" id="2ACD3126-7811-D2B5-2832-885420902B3C">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>0DB6FD6B-FB51-8A73-BACE-50D942FB1C28</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6575ADB5-2E26-C3F1-000C-D42DBB9E1C6B" referredColumn="B9B55F96-2CFE-69A3-3032-844DCC1023E7"/>
+</associations>
+</Column>
+<Column name="Delivery_method_ID_method" id="2A9C2DD4-08DA-234B-E219-7D863AE427E3">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>09A8CBE4-DD1A-EEA4-7785-5C303FEE5751</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3A8A4A1-1376-DEA1-6957-4A47D3507B70" referredColumn="57F64AF5-BFC6-70D1-2C0F-544985082785"/>
+</associations>
+</Column>
+<Column name="Address_ID_address" id="4FE95234-53CC-F443-374D-375F25D640E0">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>EC2834FE-130A-5246-C5F4-EC16A0604714</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E546E1C0-82AB-1FEA-F821-13ACE68BE555" referredColumn="56A7E7A3-FB8F-1967-80A0-E8AE319869F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D733748-1798-6BA6-5F4C-0EA5FBD92C1E" name="Delivery_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>439A51BD-4545-895B-F772-3D85FD8F941C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="201E8CD1-8D15-DE49-04C2-E0A8D1087C51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA32D891-0A1B-1B81-41B7-9E02CD7745F9" name="Delivery__IDX">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D5DF29EA-2625-C579-9C9F-18FAB6557F0F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="60434796-FB21-00DF-A856-5800285C733F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E369C076-6D48-72C2-3E5F-FB71DA21E35F" name="Delivery_Delivery_status_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>24C1B1F4-850C-2855-A2F6-757E5E54A822</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2ACD3126-7811-D2B5-2832-885420902B3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11E16CA1-52CE-1A0B-4D6A-A6BCB253E29C" name="Delivery_Delivery_method_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>206E98A0-71C5-C650-7DD0-35B4B23C0BF9</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A9C2DD4-08DA-234B-E219-7D863AE427E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3ED606B-0C9B-87A8-44E2-A0543F62BC1C" name="Delivery_Address_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>87343978-E545-7277-A085-30E6116D076B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FE95234-53CC-F443-374D-375F25D640E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

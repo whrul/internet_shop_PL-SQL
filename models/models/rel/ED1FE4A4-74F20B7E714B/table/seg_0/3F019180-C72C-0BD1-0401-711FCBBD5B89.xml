@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F019180-C72C-0BD1-0401-711FCBBD5B89" name="Hardware">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>455C4711-1F71-9DBA-B63D-8447AA08D8BB</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_product" id="6C040116-8068-9332-8720-3FD2205A84DF">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>C9CFBA10-DD43-F41A-A996-A88C16557E72</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35C9BEFB-3618-AF2A-D9D4-A7CB5D53E27D" referredColumn="97F20A44-455C-7E92-830C-012E9DE43695"/>
+</associations>
+</Column>
+<Column name="Hardware_type_ID_type" id="127609FE-9490-C6CE-EF0C-EB81970E1B1C">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>635D3CA9-F3DD-A917-27D6-06652D98EDB5</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4660AA7-26BF-9B23-B5FE-3F12A4981EEC" referredColumn="7758C9AC-7393-9909-48F2-6F257812C830"/>
+</associations>
+</Column>
+<Column name="Hardware_color_ID_color" id="76334371-4848-6803-2DC4-312E97ED6365">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>1B0D2FF7-3EA3-E8EB-BC1E-CA7363F43938</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CB03A26-90DE-2C78-6FED-2324890E361B" referredColumn="4F0705EA-59D8-A9CC-2C24-D1B9525E49F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E7CCD87-5688-A842-D4EC-5CE990AFCEC4" name="Hardware_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>AE4672BF-8736-1A41-C7D4-97A24D4C9C4D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C040116-8068-9332-8720-3FD2205A84DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFC845DA-5B50-03CF-CC39-8DC79C3FA2E0" name="Hardware_Product_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>50F5F3F9-EE8A-51AC-D5BC-7E2AF36BEF22</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C040116-8068-9332-8720-3FD2205A84DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CA67BA9-C7CF-2715-CFE3-EDEB153D4EA4" name="Hardware_Hardware_type_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>69907DCB-9DEB-E215-A242-40A58182C08D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="127609FE-9490-C6CE-EF0C-EB81970E1B1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="811FF79B-7DFD-095B-53F3-166B7DD5C610" name="Hardware_Hardware_color_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>0C8FC97C-EDA9-F102-C515-6A1E950C34DD</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76334371-4848-6803-2DC4-312E97ED6365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

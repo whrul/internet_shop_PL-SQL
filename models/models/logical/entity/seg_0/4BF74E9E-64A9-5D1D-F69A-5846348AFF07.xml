@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4BF74E9E-64A9-5D1D-F69A-5846348AFF07" name="Message">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 14:20:43 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_message" id="55C37E48-EFE6-6EC4-CC64-A10927707695">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 14:29:56 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="text" id="F4F60891-7045-023C-9A4F-1CCA1C11E7E4">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 14:30:31 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_user" id="7C2EC275-F9D6-521A-452E-065217A55911">
+<createdBy>User</createdBy>
+<createdTime>2020-05-25 23:57:41 UTC</createdTime>
+<generatorID>E02DF142-66B9-0687-6C8F-17739993546A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<referedAttribute>2E70B3A8-3298-5873-2E9A-F7E7AEC6B621</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99E83A6C-F24E-9032-6824-D05B2BC87761" name="Komunikat PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 14:30:11 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55C37E48-EFE6-6EC4-CC64-A10927707695</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

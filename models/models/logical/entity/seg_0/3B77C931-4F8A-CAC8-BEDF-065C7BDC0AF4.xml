@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B77C931-4F8A-CAC8-BEDF-065C7BDC0AF4" name="Payment">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 14:21:50 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_payment" id="58561689-4FB2-8D28-FB76-048BF955AC59">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 15:24:41 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_order" id="73725E9D-C74F-8910-8B20-4B7DAFACF313">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 16:38:18 UTC</createdTime>
+<generatorID>BC85A89E-0798-2C8E-A782-47E6AFDA6E21</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<referedAttribute>B156589C-B272-BEDB-97C3-7AC835BE891B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_method" id="AFBE617E-20B9-636D-11CF-FAB12B66DF04">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 16:39:14 UTC</createdTime>
+<generatorID>847EC585-7792-6CF1-3610-CE43FB789AD5</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<referedAttribute>6D58AD0F-FBCC-554E-7493-D9CC5C80A7A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_status" id="3A663F6F-82F4-D6C5-745B-F8E62CF67E1D">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 16:39:22 UTC</createdTime>
+<generatorID>FB8CBC46-EBB9-FC3D-2A28-8365DF4D4212</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<referedAttribute>2F66D7DF-A7AA-ACAB-831B-FEF051F1D769</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B2FC0EF-BCA3-F810-3DD2-1C8D253F41B5" name="Platnosc PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 15:24:51 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58561689-4FB2-8D28-FB76-048BF955AC59</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

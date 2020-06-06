@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6E3A714-9B36-29CC-7A2A-54AA72088064" containerWithKeyObject="6498D228-68DD-4B70-5EF6-D29C31A49DAC" localFKIndex="3284489C-4751-7D7A-9A81-BFAA7DD51C06" name="Laptop_Operating_system_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 14:34:31 UTC</createdTime>
+<generatorID>594DD898-B3F9-4AC1-9760-4E73AB6DD588</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>Operating_system</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7814931E-0371-AC95-FC52-B1030150E3FF</referredTableID>
+<keyObject>C09B0C16-70D9-CC03-C44C-EC6E6FB2D45D</keyObject>
+<referredKeyID>C09B0C16-70D9-CC03-C44C-EC6E6FB2D45D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_os</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

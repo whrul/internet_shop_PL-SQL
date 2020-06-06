@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3D0CDA0-295A-9E67-FDA4-E2A26641921E" name="Order">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>61B9E7A2-246F-A49A-7015-5FE799E03ABC</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_order" id="6E09256F-E7C9-5E60-9C0F-C2B25A4930D2">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>B156589C-B272-BEDB-97C3-7AC835BE891B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_status_ID_status" id="4A9F9723-9D14-791C-16B7-58A90C1052EE">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>FD08CAF9-56AB-3FA3-5D42-E466AEA2F78A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26DF35D1-E9AD-F636-AC3D-7F97FF451357" referredColumn="4DAA77DC-6535-98D1-1F52-6D93C0F466AE"/>
+</associations>
+</Column>
+<Column name="Payment_ID_payment" id="EB6E8B0C-584C-65D9-04A5-53EF5E8267F9">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>05A88B7F-2114-7CDB-16BA-1FA7FB4ABC19</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Delivery_ID_delivery" id="9F9F9669-B9BB-00E3-B62D-F52A6A468799">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>23C530BF-BD6B-65FD-AE9E-BC315B024F39</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="053DDF8F-0046-9AFC-2F78-52E19802CCE0">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>0490348C-E3C6-1FC4-1178-5BDB46FC1D32</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paid_at" id="28409C0D-2C21-C93B-6E40-D558A5772194">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>A354AB75-6C56-F20B-4005-F2674883ADBA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_ID_user" id="0E8CE835-64AD-F5A2-ECE5-0D2B07678F60">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>8E3150BE-0424-3906-B830-1AC579FFB0B6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D0EF1BE-F848-FA9D-C694-94F026A0B16E" referredColumn="58272886-DB9B-9E2A-7C50-E693097DCA31"/>
+</associations>
+</Column>
+<Column name="cost" id="E734180E-6874-EF95-E939-489F156DCC53">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>D0864065-C388-27C6-F9A9-093C6F8356BC</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D215BC51-1B05-F188-678E-E18D849AF8DC" name="Order_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>480C79C8-93AD-F936-FDBD-EA017E34C47B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E09256F-E7C9-5E60-9C0F-C2B25A4930D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43379740-B9EF-D4DA-4137-AD2009A9198E" name="Order__IDX">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BC85A89E-0798-2C8E-A782-47E6AFDA6E21</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EB6E8B0C-584C-65D9-04A5-53EF5E8267F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDEF7F83-8BD0-124F-1282-35524B008BE0" name="Order__IDXv1">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D5DF29EA-2625-C579-9C9F-18FAB6557F0F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9F9F9669-B9BB-00E3-B62D-F52A6A468799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ECE23AB-9445-513A-052B-3630583D98CF" name="Order_Order_status_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>E2199EDD-2AEA-E950-B392-52A8122D0525</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A9F9723-9D14-791C-16B7-58A90C1052EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="849CFE99-BAD4-6CA0-E478-543A57B2F8C5" name="Order_User_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>FCA9BF1F-59E8-EE89-07F8-8A2086AC1FB6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E8CE835-64AD-F5A2-ECE5-0D2B07678F60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

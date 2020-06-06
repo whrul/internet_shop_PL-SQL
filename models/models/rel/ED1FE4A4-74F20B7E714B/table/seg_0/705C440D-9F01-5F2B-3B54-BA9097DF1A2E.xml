@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="705C440D-9F01-5F2B-3B54-BA9097DF1A2E" name="Invoice">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>B5723723-EA1C-ADC3-EECD-14F8695D9151</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_invoice" id="1E8F2FBB-7BCE-4B99-0A93-32048ADA6E5A">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>B9B7E2C6-FF1A-C497-0B5B-4BE6B3B6A07E</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="paid_at" id="F0A0A6A2-7736-9564-DBE0-23C38D76A5EF">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>BD882359-DDCB-A239-3753-002C11E4296C</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="16B9738E-5948-066C-593C-14D649EE4D7B">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>C17441AA-026B-352A-C6F0-1EC9BC399F20</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_ID_order" id="94DF8A55-5365-C16D-3DA9-848E9C02F689">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>B24F5B5B-EE5A-CE20-B1B1-DE0705F2A95D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BDCFF4F-9AC8-D5D6-DF56-F4B823E18308" referredColumn="6E09256F-E7C9-5E60-9C0F-C2B25A4930D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8B3FEC9-D0BC-5D65-B5A9-ECA7A3646351" name="Invoice_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>060C4BA0-0B20-A605-FCAD-6472C5B3CAAA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E8F2FBB-7BCE-4B99-0A93-32048ADA6E5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B361FA5-235C-6577-3794-C0CB2DE3F96D" name="Invoice_Order_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>7C60196E-F93F-93B7-88AB-923CE2C7719B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94DF8A55-5365-C16D-3DA9-848E9C02F689"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

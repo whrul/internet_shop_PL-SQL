@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6498D228-68DD-4B70-5EF6-D29C31A49DAC" name="Laptop">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>9A73E821-516B-86A4-0A6C-0980C2B5F4DD</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_product" id="D4626EA5-5E85-6CC9-C593-7A2E6F666DC9">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>C9CFBA10-DD43-F41A-A996-A88C16557E72</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1252710-A2F0-1292-0F10-A18CF67E2297" referredColumn="97F20A44-455C-7E92-830C-012E9DE43695"/>
+</associations>
+</Column>
+<Column name="display" id="BC596F7F-684E-A920-E60B-CBAA86DA7B4B">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>389A9178-364C-7A34-F8FC-67D002A03FCD</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="memory" id="2295EAC0-8B99-E814-71A2-94756B2DA389">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>7B75C77E-2F00-B827-28D6-6C7101975F7F</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpu" id="A98EBA6A-C01C-8320-7FEB-ED3A345EC526">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>D3FD5BF8-0DD0-ED9B-16E7-CADF76483275</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gpu" id="CC7C434A-D0CE-EDE1-371D-9D8A84555858">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>585E1230-3EE3-077F-F12F-70422142FD1A</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Operating_system_ID_os" id="8E3DC4F6-2D83-4397-F257-031FC63C1685">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>A0A7D472-55CB-447E-0A44-8CFD5DD1514B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6E3A714-9B36-29CC-7A2A-54AA72088064" referredColumn="80836887-C64E-CCB6-9EA9-2888825780B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39347B06-7D9C-9ECB-C4F1-B8DF5C3937F3" name="Laptop_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>AE4672BF-8736-1A41-C7D4-97A24D4C9C4D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4626EA5-5E85-6CC9-C593-7A2E6F666DC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F81F65A-FAEF-C072-DC2A-32156E7CC229" name="Laptop_Product_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>FE626FE9-F54C-9459-40BE-C7603959ADD0</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4626EA5-5E85-6CC9-C593-7A2E6F666DC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3284489C-4751-7D7A-9A81-BFAA7DD51C06" name="Laptop_Operating_system_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 14:34:31 UTC</createdTime>
+<generatorID>594DD898-B3F9-4AC1-9760-4E73AB6DD588</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E3DC4F6-2D83-4397-F257-031FC63C1685"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

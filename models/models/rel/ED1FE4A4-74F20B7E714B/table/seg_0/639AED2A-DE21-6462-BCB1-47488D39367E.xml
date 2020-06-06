@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="639AED2A-DE21-6462-BCB1-47488D39367E" name="Payment">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>3B77C931-4F8A-CAC8-BEDF-065C7BDC0AF4</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_payment" id="BA1CF709-740A-AB78-FA79-03D40B792A1B">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>58561689-4FB2-8D28-FB76-048BF955AC59</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_ID_order" id="9E124696-6EC5-BB0F-B85F-0013C9AD6F76">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>73725E9D-C74F-8910-8B20-4B7DAFACF313</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment_method_ID_method" id="BA135795-C8EE-BF7C-E2EE-2DA7AF12EF1A">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>AFBE617E-20B9-636D-11CF-FAB12B66DF04</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6942A02-03BB-7C04-D2DA-99DCC21633EE" referredColumn="D7459990-9D1D-9F60-9FF5-FE719C3B4AC2"/>
+</associations>
+</Column>
+<Column name="Payment_status_ID_status" id="C0AF5F6B-7C04-AD2A-075A-96347637CB78">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>3A663F6F-82F4-D6C5-745B-F8E62CF67E1D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B64E3B0-4920-9163-6A38-1C14BD5C541D" referredColumn="C44F3E86-5BA2-63FC-99EE-7D4B39CE35AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DD6F92E-BB8D-4312-ED62-89E166CF82FC" name="Payment_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>5B2FC0EF-BCA3-F810-3DD2-1C8D253F41B5</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA1CF709-740A-AB78-FA79-03D40B792A1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E370E0C7-5B54-6166-3443-8FC68F4347F1" name="Payment__IDX">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BC85A89E-0798-2C8E-A782-47E6AFDA6E21</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9E124696-6EC5-BB0F-B85F-0013C9AD6F76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4368857-1B0D-2327-4FFC-B287F92AA66A" name="Payment_Payment_method_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>847EC585-7792-6CF1-3610-CE43FB789AD5</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA135795-C8EE-BF7C-E2EE-2DA7AF12EF1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69D94B7A-0EE7-FF26-5E80-E5B4062EFF27" name="Payment_Payment_status_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<generatorID>FB8CBC46-EBB9-FC3D-2A28-8365DF4D4212</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0AF5F6B-7C04-AD2A-075A-96347637CB78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

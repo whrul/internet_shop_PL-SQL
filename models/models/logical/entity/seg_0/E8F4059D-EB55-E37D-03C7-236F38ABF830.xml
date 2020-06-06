@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8F4059D-EB55-E37D-03C7-236F38ABF830" name="Delivery">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 14:21:53 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_delivery" id="4759DFF1-0B1C-2EE0-6035-AA9CBAD40A97">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 15:29:12 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_order" id="1E5B5117-5D02-2319-97C0-DF8D68C84042">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 16:38:29 UTC</createdTime>
+<generatorID>D5DF29EA-2625-C579-9C9F-18FAB6557F0F</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<referedAttribute>B156589C-B272-BEDB-97C3-7AC835BE891B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_status" id="0DB6FD6B-FB51-8A73-BACE-50D942FB1C28">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 16:38:53 UTC</createdTime>
+<generatorID>24C1B1F4-850C-2855-A2F6-757E5E54A822</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<referedAttribute>AA98DED8-B022-C270-BFB1-DFF360459882</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_method" id="09A8CBE4-DD1A-EEA4-7785-5C303FEE5751">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 16:39:04 UTC</createdTime>
+<generatorID>206E98A0-71C5-C650-7DD0-35B4B23C0BF9</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<referedAttribute>7D2900D3-2250-8A45-EDBA-D3F0C5BD5FD7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_address" id="EC2834FE-130A-5246-C5F4-EC16A0604714">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 16:40:36 UTC</createdTime>
+<generatorID>87343978-E545-7277-A085-30E6116D076B</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="true"/>
+</engineerTo>
+<referedAttribute>B87DAFE0-691E-C3D4-DC02-83206614ED02</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="439A51BD-4545-895B-F772-3D85FD8F941C" name="Dostwa PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-14 15:29:19 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ED1FE4A4-5E2E-448D-9A02-74F20B7E714B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4759DFF1-0B1C-2EE0-6035-AA9CBAD40A97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

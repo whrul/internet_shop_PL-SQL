@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D69ACE2D-8AD2-A293-FAA1-A300364A227D" name="Product">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>D59A1C33-5DA3-9ABE-5447-67481909A76F</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_product" id="97F20A44-455C-7E92-830C-012E9DE43695">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>C9CFBA10-DD43-F41A-A996-A88C16557E72</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B2DF461F-2237-790A-B728-E33C1AE326DC">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>369FE835-EF81-A586-B928-AF6F597EAEA8</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="FB4D0C44-5F55-26E9-028A-2FD0DB88E63B">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>A01CC671-DB6D-F4E0-1303-37CF01585F28</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manufacturer_ID_manufacturer" id="45CA6D6B-422A-7855-D382-87F722AF9E7D">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>AC1C839B-6C2C-E15B-8B55-04465902D484</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0292EAB0-645F-26A7-2A23-D51816D4D651" referredColumn="136B2872-3DA5-8F46-5CFF-D912D6CA5CA5"/>
+</associations>
+</Column>
+<Column name="amount" id="5F927285-6507-188F-024D-CE1B897C6D7D">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>C228EE91-A713-0285-17D9-89A1278D7134</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="selector" id="9227287B-AF61-7E2A-9D43-D152E31D1F22">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<constraintName>CH_INH_Product</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<listOfValues>
+<valueDef value="Hardware" description="entity Hardware"/>
+<valueDef value="Laptop" description="entity Laptop"/>
+<valueDef value="Product" description="entity Product"/>
+</listOfValues>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD68E154-5333-0730-9778-7B43BD3A4198" name="Product_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>AE4672BF-8736-1A41-C7D4-97A24D4C9C4D</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97F20A44-455C-7E92-830C-012E9DE43695"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1F9244A-1518-471E-EA1A-1CA6F8A74A4A" name="Product_Manufacturer_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 14:34:31 UTC</createdTime>
+<generatorID>3C0F7D08-391A-6E96-273A-872846618CFA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45CA6D6B-422A-7855-D382-87F722AF9E7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

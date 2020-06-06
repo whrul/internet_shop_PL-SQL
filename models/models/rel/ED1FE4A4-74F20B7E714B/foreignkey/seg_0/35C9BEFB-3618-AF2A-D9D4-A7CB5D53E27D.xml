@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35C9BEFB-3618-AF2A-D9D4-A7CB5D53E27D" containerWithKeyObject="3F019180-C72C-0BD1-0401-711FCBBD5B89" localFKIndex="FFC845DA-5B50-03CF-CC39-8DC79C3FA2E0" name="Hardware_Product_FK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:00 UTC</createdTime>
+<generatorID>50F5F3F9-EE8A-51AC-D5BC-7E2AF36BEF22</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<referredTableLongName>Product</referredTableLongName>
+<arc>D8F37CF6-A666-409D-5756-64C631D6BDFE</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D69ACE2D-8AD2-A293-FAA1-A300364A227D</referredTableID>
+<keyObject>FD68E154-5333-0730-9778-7B43BD3A4198</keyObject>
+<referredKeyID>FD68E154-5333-0730-9778-7B43BD3A4198</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_product</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Hardware</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

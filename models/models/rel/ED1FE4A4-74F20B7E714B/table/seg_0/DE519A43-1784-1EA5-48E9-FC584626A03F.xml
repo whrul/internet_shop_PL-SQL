@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE519A43-1784-1EA5-48E9-FC584626A03F" name="Cart">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>ED2768CE-A4B5-16CC-60C1-8B118BA23D3F</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_cart" id="27CC45E0-6876-5C71-932D-412B20BC2139">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>DB2D17BF-E479-9100-6762-442A14C76DE6</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_ID_user" id="7A743616-8CD6-AF93-8E4E-49DD7EFC9153">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>F3FECE3C-E99C-7F2A-0A3C-EA44EF87DDEA</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3774245F-5CE8-64B8-BC0F-AE32CC91C801" name="Cart_PK">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:51 UTC</createdTime>
+<generatorID>7CB17A2B-4125-9131-D983-BFB72809A888</generatorID>
+<ownerDesignName>models</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27CC45E0-6876-5C71-932D-412B20BC2139"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20A12088-9881-B106-60F4-B5770FB9B565" name="Cart__IDX">
+<createdBy>User</createdBy>
+<createdTime>2020-05-26 13:59:52 UTC</createdTime>
+<ownerDesignName>models</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E4C9B91C-068A-0A13-AA22-189C2E045CAC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7A743616-8CD6-AF93-8E4E-49DD7EFC9153"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
