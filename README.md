@@ -20,12 +20,12 @@
 
 5. *tests.sql* - use to watch the system's operation
  
-#### Developing
+### Developing
 * *table per child* was used for generating a ralational model
 * *functionality.sql* should be filled with missing functionality to cover all inserts and updates to control the correctness of input data
 * procedure createOrder should be wrapped into transaction
 
-#### ER model
+### ER model
 ![erModel](img/erModel.png)
-#### Result of chosen sql query from *tests.sql* file
+### Result of chosen sql query from *tests.sql* file
 ![sql1](img/sql1.png)
