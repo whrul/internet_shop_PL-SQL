@@ -44,7 +44,8 @@ from (select t1.product_id_product, count(*) as num_of_sales
       having count(*) > 1
       order by num_of_sales desc, t1.product_id_product asc) z1
 left outer join product z2
-on z1.product_id_product = z2.id_product;
+on z1.product_id_product = z2.id_product
+order by num_of_delivered_orders desc, id_product asc;
 
 -- filter for searching products
 select t1.id_product, t1.name, t2.name as manufacturer, t1.price, t1.amount, t1.selector from product t1
