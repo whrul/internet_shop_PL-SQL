@@ -27,6 +27,5 @@
 
 #### ER model
 ![erModel](img/erModel.png)
-#### results of chosen sql queries from *tests.sql* file
+#### Result of chosen sql query from *tests.sql* file
 ![sql1](img/sql1.png)
-![sql2](img/sql2.png)
