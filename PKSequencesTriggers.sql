@@ -1,3 +1,5 @@
+-- Author: Walerij Hrul
+
 --PK sequences with triggers for calling them
 drop trigger address_pk_tr;
 drop sequence address_pk_seq;

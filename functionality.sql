@@ -1,3 +1,5 @@
+-- Author: Walerij Hrul
+
 drop package shop_functionality;
 
 create or replace package shop_functionality is

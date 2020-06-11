@@ -1,3 +1,5 @@
+-- Author: Walerij Hrul
+
 drop trigger arc_fkarc_3_laptop;
 drop trigger arc_fkarc_3_hardware;
 

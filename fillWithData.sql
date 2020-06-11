@@ -1,3 +1,5 @@
+-- Author: Walerij Hrul
+
 -- compile sequnces before - file PKSequencesTriggers.sql
 
 -- use block for generating data located after package body

@@ -1,3 +1,5 @@
+-- Author: Walerij Hrul
+
 -- info about order
 select z1.id_order, z1.id_user, z2.value as order_status, z1.created_at, z1.total_cost,  
        z1.product_name, z1.cur_price_per_one, z1.amount, z1.selector
